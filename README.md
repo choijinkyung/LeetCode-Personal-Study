@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0014-longest-common-prefix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0217-contains-duplicate) |
 ## Hash Table
@@ -25,5 +26,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0014-longest-common-prefix) |
 | [0242-valid-anagram](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0242-valid-anagram) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/choijinkyung/LeetCode-Personal-Study/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
