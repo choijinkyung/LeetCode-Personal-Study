@@ -1,24 +1,35 @@
 /**
  * @param {string} s
  * @return {boolean}
- */
-var isPalindrome = function(s) {
-    const temp = s.toLowerCase().replace(/[^a-z0-9]/gi, '')
-    const left = 0;
-    const right = s.length;
+//  */
+// var isPalindrome = function(s) {
+//     const temp = s.toLowerCase().replace(/[^a-z0-9]/gi, '')
 
-    const r1 = [];
-    const r2 = [];
-    for(let left =0;left<temp.length/2 ; left++){
-        r1[left]=temp[left]
-    }
-    console.log(r1)
+//     const r1 = [];
+//     const r2 = [];
+//     for(let left =0;left<temp.length/2 ; left++){
+//         r1[left]=temp[left]
+//     }
+//     console.log(r1)
 
-      for(let right =temp.length-1;right>temp.length/2-1 ; right--){
+//       for(let right =temp.length-1;right>temp.length/2-1 ; right--){
 
-        r2[temp.length-right-1]=temp[right]
+//         r2[temp.length-right-1]=temp[right]
  
+//     }
+// console.log(r2)
+//     return JSON.stringify(r1) === JSON.stringify(r2)
+// };
+
+var isPalindrome = function(s){
+    const temp = s.toLowerCase().replace(/[^a-z0-9]/gi,'');
+    let left = 0;
+    let right = temp.length-1
+
+    while(left<right){
+        if(temp[left] !==temp[right])return false;
+        left ++ ;
+        right --;
     }
-console.log(r2)
-    return JSON.stringify(r1) === JSON.stringify(r2)
-};
+    return true;
+}
